@@ -1,0 +1,257 @@
+
+.navbar .navbar-nav .nav-link {
+    display: flex;
+    justify-content: right;
+}
+
+.about_page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.sign_btn{
+    background-color: #4f29b7;
+    color: #53b7cc;
+    border-radius: 10px;
+    border: 3px solid #4f29b7;
+    padding: 5px;
+}
+
+
+.video-section {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.video_about {
+    width: 125vh;
+    border-radius: 30px;
+}
+
+.card-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.card-box {
+    width: 100%;
+    height: 30vh;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #f7f7f7;
+}
+
+
+.green {
+    background-color: #d3f5d5;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+   
+}
+
+.blue {
+    background-color: #bed9ff;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+}
+
+.purple {
+    width: 100%;
+    background-color: #e7ddff;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 50%;
+}
+
+.card-box h5 {
+    color: #333;
+    font-size: xx-large;
+}
+
+.card-box p {
+    color: gray;
+    font-weight: 300;
+}
+.introduction {
+    background-color: #f5f5f7;
+    padding: 50px; 
+}
+
+.introduc_1 {
+    text-align: right; 
+    
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 30px;
+}
+
+.card-row {
+    display: flex;
+    gap: 1em; 
+}
+
+.card-item {
+    flex: 3; 
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #f7f7f7; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+
+
+.card-item{
+    padding: 20px;
+
+}
+
+
+.card-container-Award{
+    background-color: #f5f5f7;
+    padding: 30px;
+
+}
+
+.card-Awawrd{
+    flex: 3; 
+    border-radius: 10px;
+    padding: 1em;
+    background-color: white; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+
+}
+
+.card-Tuwaiq {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; 
+    background-color: #f3f8ff;
+}
+
+.map-container {
+    flex: 1;
+}
+
+.info-container {
+    flex: 1;
+}
+
+.Googlemap_tuwaiq iframe {
+    width: 100%;
+    height: 200; 
+    
+}
+#Tuwaiq_name{
+    display: flex;
+    padding-top: 10px;
+}
+.Loc_Tuwaiq{
+    display: flex;
+}
+
+.foot_family {
+    background-color: #e3d8ff;
+}
+
+.First_foot {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.left_Foot {
+    display: flex;
+    gap: 20px; 
+}
+
+.links_group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    align-items: start; 
+   
+}
+
+
+a  {
+    text-decoration:none;
+    color: #7a5dcc;
+}
+
+
+.bottom_nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    background-color: #e3d8ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+   
+
+    
+    .sign_btn{
+        display: none;
+    }
+}
+
+
+
+@media (min-width: 769px) {
+    .navbar-brand {
+        margin-left: auto;
+        order: 1;
+    }
+   
+
+
+    .navbar-toggler {
+        order: 1;
+    }
+
+    .navbar-nav {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+}

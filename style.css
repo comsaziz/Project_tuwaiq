@@ -1,0 +1,212 @@
+body {
+    background-color: #f5f6fa;
+}
+
+/* Start Nav */
+.container {}
+
+.navbar {}
+
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 2;
+
+}
+
+
+
+.video-container {
+    position: relative;
+    background-color: #845ea4;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.55;
+}
+
+.start-btn {
+    font-size: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #5cc;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+
+}
+
+
+
+
+.centered-content h4 {
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #4e3797;
+}
+
+.navbar .navbar-nav .nav-link {
+    display: flex;
+    justify-content: right;
+  
+
+}
+
+/* End Nav */
+.card {
+    border-radius: 30px;
+    height: 40vh;
+    width: 40vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+.button_acd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.button_acd button {
+    color: #4e3797;
+    background-color: white;
+    border: 1px solid #4e3797;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+
+.centered-contentt{
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+
+.Now_more{
+    color: white;
+    background-color: #4e3797;
+    border: 1px solid #4e3797;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.Parent_foot {
+    background-color: #f0f0f0; 
+    padding: 2rem 0; 
+}
+
+.head_foot {
+    text-align: center; 
+    color: #4e3797;
+}
+
+._img {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 5rem; 
+    padding: 0 1rem; 
+    
+}
+
+.All_image {
+    border: 2px solid white; 
+    background-color: white;
+}
+
+.form_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap:10px;
+    flex-wrap: wrap;
+   
+}
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+@media (max-width: 768px) {
+
+   
+
+    
+    .sign_in {
+        display: none;
+    }
+
+  
+    .card {
+        width: 100%; 
+        text-align: center; 
+    }
+
+
+    .All_image {
+        width: 100%; 
+        text-align: center; 
+    }
+
+
+    .footer_info{
+        width: 100%; 
+        text-align: center; 
+    }
+    
+}
+@media (min-width: 769px) {
+    .navbar-brand {
+        margin-left: auto;
+        order: 1;
+    }
+   
+
+
+    .navbar-toggler {
+        order: 1;
+    }
+
+    .navbar-nav {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+}
+
+
